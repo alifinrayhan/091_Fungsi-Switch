@@ -63,3 +63,35 @@ int main ()
         cout <<
     }
 }
+int main ()
+{
+    switch (pilihan)
+    {
+    case 1:
+        input();
+        cout << "hasil penjumlahan = " << penjumlahan(bilSatu, bilDua) << endl;
+        break;
+    case 2:
+        input();
+        cout << " hasil pengurangan = " << pengurangan(bilSatu, bilDua) << endl;
+        break;
+    case 3:
+        input();
+        cout << "hasil perkalian = " << perkalian(bilSatu, bilDua) << endl;
+        break;
+    case 4:
+        input();
+        cout << "hasil pembagian = " << pembagian(bilSatu, bilDua) << endl;
+        break;
+    case 5:
+        break;
+        default:
+        cout << "pilihan tidak ada ";
+        break;
+
+        
+
+
+    }
+}
+
